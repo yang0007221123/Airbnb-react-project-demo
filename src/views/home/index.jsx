@@ -7,7 +7,7 @@ const Home = memo((props) => {
   
   useEffect(() => {
     dispatch(getHighScoreAction());
-  }, []);
+  });
   
   return (
     <div>

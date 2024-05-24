@@ -1,10 +1,19 @@
 import React, {memo} from 'react';
 import {LeftWrapper} from "@/components/layout/app-header/css/header-left";
+import SvgIcon from "@/components/svgIcon";
 
 const HeaderLeft = memo((props) => {
+  
+  // 回到主页
+  const goToHome = () => {
+    console.log("goToHome");
+  }
+  
   return (
     <LeftWrapper>
-      left
+      <div className="logo-area" onClick={goToHome}>
+        <SvgIcon svgName="logo" iconWidth={161} iconHeight={36} needPointer />
+      </div>
     </LeftWrapper>
   );
 })
