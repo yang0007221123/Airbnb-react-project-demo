@@ -6,8 +6,7 @@ export const LeftWrapper = styled.div`
   justify-content: flex-start;
   
   .logo-area {
-    padding-left: 24px;
-    //color: ${props => props.theme.color.firstColor};
+    color: ${props => props.theme.color.firstColor};
   }
 
 `

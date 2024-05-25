@@ -12,7 +12,7 @@ const HeaderLeft = memo((props) => {
   return (
     <LeftWrapper>
       <div className="logo-area" onClick={goToHome}>
-        <SvgIcon svgName="logo" iconWidth={161} iconHeight={36} needPointer />
+        <SvgIcon name="logo" width={161} height={36} needPointer />
       </div>
     </LeftWrapper>
   );

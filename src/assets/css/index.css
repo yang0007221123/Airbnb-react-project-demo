@@ -5,3 +5,4 @@
 @import "normalize.css";
 @import "./reset.less";
 @import "./mixins.less";
+@import "./common.less";

@@ -5,10 +5,10 @@ import "@/assets/svgIcons/index";
 // SVG组件
 function SvgIcon(props) {
   const {
-    svgName, // svg名称
+    name, // svg名称
     iconColor,  // 颜色
-    iconWidth = 32, // 宽度
-    iconHeight, // 高度
+    width = 32, // 宽度
+    height, // 高度
     hasHover, // hover效果
     hoverColor, // hover时的颜色
     needPointer,  // 鼠标
@@ -35,15 +35,19 @@ function SvgIcon(props) {
         id="svg-icon"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        style={{
+          width: width,
+          height: height,
+        }}
       >
         <svg
           fill={svgColor}
           style={{
-            width: iconWidth,
-            height: iconHeight,
+            width: width,
+            height: height,
             cursor: needPointer ? 'pointer' : 'normal'
           }}>
-          <use xlinkHref={"#" + svgName}/>
+          <use xlinkHref={"#" + name}/>
         </svg>
       </div>
     </Tooltip>

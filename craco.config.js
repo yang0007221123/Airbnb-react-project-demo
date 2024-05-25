@@ -29,6 +29,15 @@ module.exports = {
   plugins: [
     {
       plugin: CracoLessPlugin, // 支持less
+      options: {
+        lessLoaderOptions: {
+          lessOptions: {
+            // 在这里添加您的Less选项，如果需要的话
+            modifyVars: {'@primary-color': '#1DA57A'}, // 例如，覆盖antd的默认主题色
+            javascriptEnabled: true,
+          },
+        },
+      },
     },
   ],
 }

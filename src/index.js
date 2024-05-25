@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from '@/App';
 import {HashRouter} from "react-router-dom"
 import "@/assets/css/index.css"  // css样式
-import appTheme from "@/assets/theme/index";
+import appTheme from "@/assets/theme/index";  // 项目主题样式
 import {ThemeProvider} from "styled-components"; // css样式共享组件
 import store from "@/store/index"; // redux数据
 import {Provider} from "react-redux"; // redux数据共享组件

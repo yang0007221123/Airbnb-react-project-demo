@@ -3,3 +3,12 @@
 */
 
 @border-radius: 6px;
+
+
+.flexRow(@justify: space-between, @align: center, @flex-wrap: wrap) {
+  display: flex;
+  flex-direction: row;
+  justify-content: @justify;
+  align-items: @align;
+  flex-wrap: @flex-wrap;
+}

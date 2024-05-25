@@ -41,8 +41,6 @@ c
 3src/components/layout/app-header/css/header-left.js,4\0\4059a084648ab9ccf2f6fc5339139c7448ec5f04
 ]
 -src/components/layout/app-header/css/index.js,1\6\166d686ae29ab43299f5411d26037a618d4fd90e
-G
-src/assets/svg/logo.svg,6\e\6ef47d8239bf38998c768329ef8c59b870c8f24c
 ?
 craco.config.js,d\c\dc8684dd9b1371aee46724f40001122dc551e063
 L
@@ -53,15 +51,21 @@ P
  src/components/svgIcon/index.jsx,a\b\ab2a0d4946c59cea7c2ed424ae71994aa169b3f0
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
-M
-src/assets/svgIcons/index.jsx,0\4\04192de7babfd204530e18b3f6f4a9b49a6969e8
 H
 src/assets/css/index.css,4\5\45e25c8e0371ded7ceab0e9984c90eb22123aca9
-Q
-!src/components/svgIcon/style.less,1\3\135740c492fe292e0481881b2f5c854f9eabc556
 I
 src/assets/theme/index.js,0\6\0605879973828b0fd9e6231b559f0650eb689a74
 J
 src/assets/css/mixins.less,c\c\cc7036064d12e094961ccd3d962ddd44d6991d74
 I
 src/assets/css/reset.less,f\8\f83c346e829d5f3a022e62db2a12a13c0f1ae41b
+V
+&src/assets/svgIcons/icons/language.svg,8\3\83551bd4a8e4a2a128fc22896796baf35513f547
+R
+"src/assets/svgIcons/icons/menu.svg,9\8\9872318874b84f83a8aa8ac84b95a10a751ca1ac
+V
+&src/assets/svgIcons/icons/user-img.svg,3\0\30526e4fe1100436867cb350d55e89f1f1b71c86
+J
+src/assets/css/common.less,0\6\06f9348edb8ea7d38b9e3d9da1733edb4f7bdb2b
+U
+%src/assets/svgIcons/icons/userImg.svg,9\6\96b5a10355d1ba61c08c2bbf8a14ca1ea99c00a0
