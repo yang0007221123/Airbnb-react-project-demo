@@ -5,12 +5,13 @@ import HeaderMiddle from "@/components/layout/app-header/components/HeaderMiddle
 import HeaderRight from "@/components/layout/app-header/components/HeaderRight";
 
 const AppHeader = memo((props) => {
+  
   return (
-   <HeaderWrapper>
-     <HeaderLeft></HeaderLeft>
-     <HeaderMiddle></HeaderMiddle>
-     <HeaderRight></HeaderRight>
-   </HeaderWrapper>
+    <HeaderWrapper>
+      <HeaderLeft></HeaderLeft>
+      <HeaderMiddle></HeaderMiddle>
+      <HeaderRight></HeaderRight>
+    </HeaderWrapper>
   );
 })
 

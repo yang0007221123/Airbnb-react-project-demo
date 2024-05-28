@@ -1,6 +1,9 @@
 import {styled} from "styled-components";
 
 export const MiddleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  height: 80px;
 
   .search-box {
     width: 315px;

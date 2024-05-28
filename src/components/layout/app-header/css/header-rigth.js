@@ -2,6 +2,7 @@ import {styled} from "styled-components";
 
 export const RightWrapper = styled.div`
   flex: 1;
+  height: 80px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -52,6 +53,7 @@ export const UserPopoverWrapper = styled.div`
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
 
   .item {
     width: 100%;
