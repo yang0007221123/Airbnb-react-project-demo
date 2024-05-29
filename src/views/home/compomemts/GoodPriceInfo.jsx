@@ -19,11 +19,11 @@ const GoodPriceInfo = memo((props) => {
   return (
     <GoodPriceWrapper>
       {/* 标题 */}
-      <TitleSection mainTitle={goodPriceInfo.title}></TitleSection>
+      <TitleSection mainTitle={goodPriceInfo?.title}></TitleSection>
       {/* 房源展示区域 */}
       <div className="room-box">
         {
-          goodPriceInfo.list?.map(item => {
+          goodPriceInfo?.list?.map(item => {
             return (<RoomItem roomItemInfo={item} key={item.id}></RoomItem>)
           })
         }

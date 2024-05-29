@@ -7,7 +7,7 @@ const RoomItem = memo((props) => {
   const {roomItemInfo} = props;
   
   return (
-    <RoomItemWrapper messagecolor={roomItemInfo.verify_info?.text_color}>
+    <RoomItemWrapper messagecolor={roomItemInfo?.verify_info?.text_color}>
       {/*  图片区域 */}
       <RotatePics picture_url={roomItemInfo.picture_url}></RotatePics>
       {/*  底部文字区域 */}
