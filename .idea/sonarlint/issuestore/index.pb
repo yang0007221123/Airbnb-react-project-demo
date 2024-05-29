@@ -81,14 +81,8 @@ T
 $src/components/titleSection/style.js,a\e\ae09e22bfcf44cc8e895ce0dc0f2d294b9020f60
 Q
 !src/components/roomItem/index.jsx,6\9\6929217d568a0774cd7903c9fd9b16b3318b185e
-P
- src/components/roomItem/style.js,c\f\cfc9753f8824f85fe5b3d59ca5c6099ab4644e16
-W
-'src/components/roomItem/cmps/RotatePics,2\1\210f772e0e7ee7d104b353284cea5ff2ed51779a
 [
 +src/components/roomItem/cmps/RotatePics.jsx,8\d\8dd592079b62bebf3e38455349cb6c25d372d4e9
-Y
-)src/components/roomItem/css/rotatePics.js,6\e\6e22870003bd518536396b56637b23381124c30d
 X
 (src/components/roomItem/css/room-item.js,b\3\b32bf12a213a288cc70dad4cbb383963b99da0d7
 Z
@@ -99,3 +93,5 @@ Y
 )src/components/layout/app-footer/style.js,f\6\f6569630107ccb23eebf045dbd0a885e56164d43
 @
 src/app-style.js,6\6\668b6d9716f2e53eea04d7021ee536a60a48bd92
+Q
+!src/store/modules/global/index.js,4\f\4f202bab87153a4748093394abf5dd7803e02a5a

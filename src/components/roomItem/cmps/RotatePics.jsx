@@ -10,7 +10,7 @@ const RotatePics = memo((props) => {
     <RotatePicsWrapper>
       <div className="img-box">
         {/* 轮播图 */}
-        <Carousel>
+        <Carousel arrows infinite={false}>
           {
             picture_url?.map(item => {
               return (<img className="img" src={item} key={item} alt=""/>)

@@ -5,11 +5,10 @@ import HeaderMiddle from "@/components/layout/app-header/components/HeaderMiddle
 import HeaderRight from "@/components/layout/app-header/components/HeaderRight";
 
 const AppHeader = memo((props) => {
-  
   return (
-    <HeaderWrapper>
+    <HeaderWrapper customheight={props.customHeight}>
       <HeaderLeft></HeaderLeft>
-      <HeaderMiddle></HeaderMiddle>
+      <HeaderMiddle customHeight={props.customHeight}></HeaderMiddle>
       <HeaderRight></HeaderRight>
     </HeaderWrapper>
   );

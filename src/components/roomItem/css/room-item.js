@@ -7,7 +7,7 @@ export const RoomItemWrapper = styled.div`
   cursor: pointer;
 
   .desc-box {
-    height: calc(100% - 354px);
+    height: calc(100% - 256px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,15 +19,12 @@ export const RoomItemWrapper = styled.div`
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      
+
     }
 
     .message-text {
       color: ${props => props.messagecolor || "#ffffff"};
     }
   }
-
-
 }
 `
-

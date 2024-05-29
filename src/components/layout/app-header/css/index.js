@@ -11,7 +11,7 @@ export const HeaderWrapper = styled.div`
 
   display: flex;
   align-items: flex-start;
-  height: ${props => props?.customheight + "px" || "200px"};
+  height: ${props => (props.customheight + "px") || "200px"};
   border-bottom: 1px solid #c3c3c3;
   padding: 0 40px;
 
